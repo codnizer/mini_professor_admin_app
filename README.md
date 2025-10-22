@@ -2,7 +2,7 @@
 
 A simple full-stack Dart application for managing professors and their associated lectures. The application features a Dart web frontend (`dart:html`) and a Dart backend server (`shelf`, `postgres`).
 
-![Application Demo](prof_admin_mini_app/DEMO.png)
+![Application Demo](/DEMO.png)
 
 ## Description
 
@@ -19,13 +19,13 @@ A user can:
 
 Users can manage the list of all professors. This includes adding a new professor with a name and department, editing their details, or deleting them (which also deletes their associated lectures).
 
-![CRUD Professors](prof_admin_mini_app/CRUD%20professor.png)
+![CRUD Professors](/CRUD%20professor.png)
 
 ### Lecture Management
 
 After selecting a professor, users can manage that professor's lectures. This includes adding new lectures, editing their titles, or deleting them.
 
-![CRUD Lectures](prof_admin_mini_app/CRUD%20LECTURES.png)
+![CRUD Lectures](/CRUD%20LECTURES.png)
 
 ## Project Structure
 
