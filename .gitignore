@@ -1,0 +1,64 @@
+.gitignore for a full-stack Dart project (frontend/backend)
+
+1. OS-specific files
+
+---------------------
+
+**/.DS_Store
+Thumbs.db
+*.swp
+*~
+
+2. IDE settings
+
+---------------------
+
+IntelliJ/Android Studio
+
+/.idea/
+*.iml
+
+VS Code
+
+/.vscode/
+
+3. Dart/Pub artifacts (for all sub-projects)
+
+---------------------------------------------
+
+Catches /.dart_tool/, /frontend/.dart_tool/, /backend/.dart_tool/
+
+**/.dart_tool/
+
+Catches /.packages, /frontend/.packages, /backend/.packages
+
+**/.packages
+
+Catches /packages/, /frontend/packages/, /backend/packages/ (deprecated)
+
+**/packages/
+
+4. Frontend-specific build artifacts
+
+------------------------------------
+
+Production build output directory (from build_runner build)
+
+/frontend/build/
+
+Dev-mode compiled JavaScript (from build_runner serve)
+
+/frontend/web/.dart.js
+/frontend/web/.dart.js.map
+/frontend/web/.dart.js.deps
+/frontend/web/.ddc.js
+/frontend/web/*.ddc.js.map
+/frontend/web/main.dart.bootstrap.js
+
+5. Other
+
+----------------
+
+Add any local config files here, e.g.
+
+.env
